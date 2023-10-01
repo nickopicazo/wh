@@ -1,0 +1,19 @@
+{
+  "name": "womenshealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "concurrently \"live-server\" \"sass --watch --style=compressed --no-source-map scss/:css/\""
+  },
+  "author": "Nicko Picazo",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.2",
+    "concurrently": "^8.2.1",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.62.1",
+    "serve": "^14.2.1"
+  }
+}
